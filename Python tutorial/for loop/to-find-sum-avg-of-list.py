@@ -5,5 +5,5 @@ for i in mylist:
 print(sum)
 print(sum//len(mylist))
 x=len(mylist)
-for i in range(1,int(x)):
+for i in range(0,int(x)):
     print(mylist[i])
