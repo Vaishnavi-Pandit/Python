@@ -1,20 +1,22 @@
 from numpy import*
-arr= array[[1,2,3],[6,7,8],[5,6,7]]
-arr
+arr= array([[1,2,3],[6,7,8],[5,6,7]])
+print(arr)
 #3d array
-array([[[1,2],[5,6]],[[6,7][8,9]]])
-x=zeros((3,4)int)
-x=ones((3,4))
-eye(5,dtype=int)
-eye((5,7),dtype=float)
-arr.mean()
-arr.min()
-arr[1]
-arr[2]
-arr[0,0]
-arr[0:2,1:3]
-arr[:2,1:]
-arr[1:3,0:2]
-arr[1:,:2]
-arr[0:3,1:2]
-arr[:,1]
+t=array([[[1,2],[5,6]],[[6,7],[8,9]]])
+print(t)
+l=zeros((5,6),int)
+print(l)
+x=ones((3,4),int)
+print(x)
+print(eye(5,dtype=int))
+print(arr.mean())
+print(arr.min())
+print(arr[1])
+print(arr[2])
+print(arr[0,0])
+print(arr[0:2,1:3])
+print(arr[:2,1:])
+print(arr[1:3,0:2])
+print(arr[1:,:2])
+print(arr[0:3,1:2])
+print(arr[:,1])
