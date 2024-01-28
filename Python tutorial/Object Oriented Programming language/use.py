@@ -1,0 +1,12 @@
+from student2 import *
+st = Student()
+st.setid(3435)
+st.setname('Vaish')
+st.setphone(878798474)
+st.setmarks(98)
+st.setadd("dfhsdkjfkjs")
+print(st.getname())
+print(st.getphone())
+print(st.getadd())
+print(st.getid())
+print(st.getmarks())

@@ -9,4 +9,4 @@ print("Name=%s,Id=%5d,Sal=%.2f"%(name,id,sal))#%5d is used to add 5 spaces befor
 print("Name=%s,Id=%5d,Sal=%10.2f"%(name,id,sal))#10.2f here 10 is used to add spaces before the value before point but the no before point will beplaced in no of spaces from right hand side before point.
 print('Id={},Name={},sal={}'.format(id,name,sal))
 print('Id={0},Name={2},Sal={2}'.format(id,name,sal))
-print('id={:5d},name={:10s},sal={:8f}'.format(id,name,sal))
+print('id={:5d},name={:10s},sal={:8f}'.format(id,name,sal))#here the spaces are added before in int and float but in string spaces are added after the string.
