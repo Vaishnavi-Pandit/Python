@@ -3,7 +3,6 @@
 class Duck:
     def talk(self):
         print('Quack quack!')
-class Dog:
     def talk(self):
         print('Bow bow!')
 def call_talk(obj):
