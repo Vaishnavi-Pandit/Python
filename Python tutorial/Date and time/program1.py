@@ -2,5 +2,5 @@
 from datetime import *
 d, m, y = [int(i) for i in input('Enter a date(dd/mm/yyyy): ').split('/')]
 dt = date(y, m, d) # dateclass object
-str = dt.strftime("you are born on %A and it is %jth day")
-print(str)
+st = dt.strftime("you are born on %A and it is %jth day")
+print(st)
