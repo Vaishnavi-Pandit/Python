@@ -1,8 +1,9 @@
 # arith.py module
-class mid:
+class Rani:
     def add(a, b):
         c = a + b
         print(c)
+
     def sub(a, b):
-        c = a-b
+        c = a - b
         return c
